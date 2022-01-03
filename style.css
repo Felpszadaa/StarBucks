@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html,
+body {
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+header {
+  height: 200px;
+  padding: 20px 0;
+}
+.logo {
+  width: 50%;
+}
+.menu {
+  padding-top: 30px;
+  width: 50%;
+  text-align: right;
+  
+}
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 15px;
+}
+.menu a:hover {
+  color: #017143;
+}
+section .sobre {
+  height: calc(100% - 200px);
+  position: relative;
+}
+.extras {
+  position: absolute;
+  top: 150px;
+  bottom: -450px;
+  right: -500px;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  background-color: #017143;
+}
+.social-media {
+  position: absolute;
+  right: 510px;
+  top: 100px;
+}
+.social-media img {
+  display: block;
+  max-width: 15px;
+  margin: 20px 0;
+}
+.texto-sobre {
+  margin-top: 30px;
+}
+.texto-sobre h1 {
+  font-size: 50px;
+}
+.texto-sobre p {
+  margin: 20px 0;
+  color: black;
+  font-size: 14px;
+  font-weight: 550;
+  max-width: 800px;
+}
+.texto-sobre button {
+  border: 0;
+  background-color: #017143;
+  color: white;
+  border-radius: 10px;
+  width: 110px;
+  height: 30px;
+  cursor: pointer;
+}
+.imgs {
+  width: calc(100% - -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
